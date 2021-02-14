@@ -18,9 +18,9 @@
 
 ## Visual Representation:
 
-Visual Representation of Stacks: ![Alt][1]
+ ![Alt][1]
 
-[1]: /images/Slack(1).png "Stack Birds-eye view"
+[1]: /images/Stack(1).png "Stack Birds-eye view"
 
 
 ## General Interface 
