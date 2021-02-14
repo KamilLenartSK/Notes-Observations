@@ -1,0 +1,1 @@
+/ contains images and diagrams to aid the discussions around ADT
