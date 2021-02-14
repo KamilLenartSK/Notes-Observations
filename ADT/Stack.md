@@ -18,7 +18,7 @@
 
 ## Visual Representation:
 
- ![Stack Visual Depiction](/images/Stack(1).png)
+ ![Stack Visual Depiction](images/Stack.png)
 
 
 
