@@ -18,9 +18,9 @@
 
 ## Visual Representation:
 
- ![Alt][1]
+ ![Stack Visual Depiction](/images/Stack(1).png)
 
-[1]: /images/Stack(1).png "Stack Birds-eye view"
+
 
 
 ## General Interface 
