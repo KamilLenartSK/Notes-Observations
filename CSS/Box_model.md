@@ -22,5 +22,5 @@ We may control:
   
 ## BOX MODEL CLOSE-UP
 
-
+ ![SH1, block level on page ](images/BOX_1.png)
 
