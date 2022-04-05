@@ -1,5 +1,12 @@
 # Freestyle, raw version
 
+## OOD and OOP
+
+- designing systems is hard!
+- the game of trade-offs
+  - code understandability vs changeability
+-
+
 ## OOP Programs comprise objects
 
 - Object encapsulates data , its **state**, together with methods that operate on that data.
@@ -38,7 +45,12 @@
   - interfaces can contain other interfaces as subsets
     - a type is a subtype of another , if its interface blueprint is contained within an interface of its supertype
 
-## Abstract Classes
+## Abstraction and Abstract Classes
+
+- Abstraction enables to focus on what is important, excluding implementation details
+- Abstractions are hard to get right, even with the best of intentions.
+- General over-anticipation from incomplete information (premature optimisation)
+- Delay using abstractions untill you have understood the code and the goals you wish it to accomplish
 
 - Abstract class **cannot be instantiated** directly!
 - Abstract class defines **common interface** for its subclasses
@@ -120,3 +132,5 @@
 
 - Special Kind of DTO
 - Contains navigational methods (find,save)
+
+##
