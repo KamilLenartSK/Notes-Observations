@@ -15,7 +15,7 @@
 - Keeping track of recursive calls can be handled by Stacks.
 - Reversing a Sequence of data ,for instance, a string reversal can be implemented using stacks.
 - Parsers use stack to validate syntax correctness. matching bracket pair etc..
-- Browser History can be thought of as a series of stackframes.
+- Browser History can be thought of as series of stackframes.
 
 ## Visual Representation:
 
@@ -25,10 +25,12 @@
 
 Typical interface of a Stack tends to boil down to these crucial methods:
 
-1. **push()**
-2. **pop()**
-3. **peek()**
-4. **isEmpty()**
+1. **push()** -- adds an element onto the top of the stack
+2. **pop()** -- removes the element from the top of the stack and returns it
+3. **peek()** -- looks at the element at the top of the stack
+4. **isEmpty()** returns a boolean value: - **TRUE** if the stack is empty
+
+- **FALSE** if it has at least one element
 
 ## Possible implementation (using **Arrays**)
 
@@ -63,3 +65,9 @@ class ArrayStack {
 
 export default ArrayStack;
 ```
+
+## Tradeoffs - drawbacks -
+
+-No random access - top or nothing
+-No searching through the stack
+-No walk through the stack
