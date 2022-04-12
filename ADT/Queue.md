@@ -11,7 +11,7 @@
 - JavaScript engine implements **Event Queue** mechanism to control asynchrony within single stack/process
 - Printer jobs are stored inside of a Queue
 - supermarket wating lines
-- Call Centres
+- Call Centres - your call will be handled by the next available operator
 
 ## General Interface
 
