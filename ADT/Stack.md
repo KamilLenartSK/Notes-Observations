@@ -16,6 +16,7 @@
 - Reversing a Sequence of data ,for instance, a string reversal can be implemented using stacks.
 - Parsers use stack to validate syntax correctness. matching bracket pair etc..
 - Browser History can be thought of as series of stackframes.
+- Calculators keep intermediate values inside of stack ADT ---> postfix notation
 
 ## Visual Representation:
 
