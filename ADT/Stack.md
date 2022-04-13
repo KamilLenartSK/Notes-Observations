@@ -9,7 +9,7 @@
 
 ## Where is the benefit/ use cases ?
 
-- Imposing LIFO constraint establishes controlled data access
+- Imposing LIFO constraint establishes controlled data access. In turn the data becomes hard to corrupt.
 - Support for UNDO / REDO actions - a feature common in text editors.
 - JavaScript Call Stack uses stack to manage and thread through various invocation contexts - the topmost element refers to the currently active context.
 - Keeping track of recursive calls can be handled by Stacks.
@@ -27,9 +27,18 @@
 Typical interface of a Stack tends to boil down to these crucial methods:
 
 1. **push()** -- adds an element onto the top of the stack
+   - Time Complexity : O(1)
+   - Space Complexity : 0(1)
 2. **pop()** -- removes the element from the top of the stack and returns it
+   - Time Complexity : O(1)
+   - Space Complexity : 0(1)
 3. **peek()** -- looks at the element at the top of the stack
+   - Time Complexity : O(1)
+   - Space Complexity : 0(1)
 4. **isEmpty()** returns a boolean value: - **TRUE** if the stack is empty
+   - Time Complexity : O(1)
+   - Space Complexity : 0(1)
+5. **isFull()**
 
 - **FALSE** if it has at least one element
 

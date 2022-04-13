@@ -18,11 +18,20 @@
 Typical interface of a Stack tends to boil down to these crucial methods:
 
 1. **enqueue(value)** -- adds an element onto the back of the queue
+   - Time Complexity : O(1)
+   - Space Complexity : 0(1)
 2. **dequeue()** -- removes the element from the front of the queue and returns it
+   - Time Complexity : O(1)
+   - Space Complexity : 0(1)
 3. **peek()** -- looks at the element at the front of the queue
-4. **isEmpty()** returns a boolean value: - **TRUE** if the queue is empty
+   - Time Complexity : O(1)
+   - Space Complexity : 0(1)
+4. **isEmpty()** returns a boolean value:
 
+- **TRUE** if the queue is empty
 - **FALSE** if it has at least one element
+  - Time Complexity : O(1)
+  - Space Complexity : 0(1)
 
 ## Tradeoffs - drawbacks -
 
