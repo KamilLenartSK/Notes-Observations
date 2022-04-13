@@ -48,11 +48,19 @@
 
 **UNDEFINED**
 
-- variable identifier exists in memory however, its value has yet to be defined.
+- variable identifier exists in memory and in current scope however, its value has yet to be defined.
 
 - in other words, a value assignment is yet to take place
 
 - this behaviour is especially noticeable when utilising function-scoped identifiers, declared with **var** keyword
+
+**UNDECLARED**
+
+- variable identifier cannot be located within the current scope.
+
+**UNITIALISED**
+
+- refer to **UNDEFINED** above
 
 ## ABSTRACT OPERATIONS
 
