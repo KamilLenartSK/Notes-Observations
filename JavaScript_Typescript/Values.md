@@ -10,7 +10,7 @@
 - Use typeof “value” to ask what kind of data “value” is representing
 - typeof returns a string value !!!
 
-**7 Fundamental Primitive types exist**
+**Fundamental Primitive types exist**
 
 - NUMBER
 - STRING
@@ -19,6 +19,14 @@
 - NULL
 - SYMBOL
 - BIGINT
+- VOID (TS)
+
+**Object types**
+
+- OBJECTS
+- FUNCTIONS
+- ARRAYS
+- CLASSES (TS)
 
 ## Number Type
 
